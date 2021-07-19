@@ -26,6 +26,7 @@
 a{text-decoration: none;}
 html{scroll-behavior: smooth;}
 body{background-color: #1c1c1c;}
+div{margin: 0;}
 
 /* PC Style  */
 #container{position: relative; width: 100%;overflow:hidden;background-color: #fff;}
@@ -33,24 +34,250 @@ body{background-color: #1c1c1c;}
 
 /* 섹션별 백그라운드 */
 #sec1,#sec2,#sec3,#sec4,#sec5{position: relative;}
-img{width: 100%;position: absolute;}
-.sec1_img1,.sec2_img1,.sec3_img1,.sec4_img1,.sec5_img1,.sec6_img1{position: relative;}
+img{width: 100%;display: block;}
+.sec1_img1,.sec2_img1,.sec3_img1,.sec4_img1,.sec5_img1,.sec6_img1{position:unset;}
 
-
+/* =================== 피시 1번 섹션=================== */
 #sec1 .sec1_img1{
     width: 100%;
-    
 }
 #sec1 .sec1_img2{
-
-    width: 47vw;
-    left: 27%;
-    top: 13vw;
+    z-index: 1;
+    width: 40vw;
+    left: 30%;
+    top: 5vw;
+    position: absolute;
 }
 #sec1 .sec1_img3{
-
-    width: 20vw;
-    left: 25%;
-    top: 25vw;
+    z-index: 1;
+    width: 47vw;
+    left: 27%;
+    top: 55vw;
     z-index: 2;
+    position: absolute;
+}
+/* =================== 피시 2번 섹션=================== */
+#sec2 .sec2_img2{
+    z-index: 1;
+    width: 25vw;
+    left: 32%;
+    top: 12vw;
+    position: absolute;
+}
+#sec2 .sec2_img3{
+    z-index: 1;
+    width: 40vw;
+    left: 25%;
+    top: 20vw;
+
+    position: absolute;
+}
+#sec2 .sec2_img4{
+    z-index: 1;
+    width: 30vw;
+    left: 30%;
+    top: 30vw;
+
+    position: absolute;
+}
+#sec3 .sec3_img2{
+    z-index: 1;
+    width: 75vw;
+    right: 0%;
+    top: 6vw;
+
+    position: absolute;
+}
+
+/* =================== 피시 4번 섹션=================== */
+#sec4 .sec4_img2{
+    z-index: 1;
+    width: 50vw;
+    left: 25%;
+    top: 10vw;
+    position: absolute;
+}
+#sec4 .sec4_img3{
+    z-index: 1;
+    width: 50vw;
+    left: 25%;
+    top: 43vw;
+    position: absolute;
+}
+#sec4 .sec4_img4{
+    z-index: 1;
+    width: 25vw;
+    left: 25%;
+    top: 87vw;
+    position: absolute;
+}
+#sec4 .sec4_img5{
+    z-index: 1;
+    width: 20vw;
+    left: 55%;
+    top: 86vw;
+    position: absolute;
+}
+#sec4 .sec4_img6{
+    z-index: 1;
+    width: 40vw;
+    left: 25%;
+    top: 115vw;
+    position: absolute;
+}
+#sec4 .sec4_img7{
+    z-index: 1;
+    width: 50vw;
+    left: 23%;
+    top: 130vw;
+    position: absolute;
+}
+#sec4 .sec4_img8{
+    z-index: 1;
+    width: 35vw;
+    left: 32%;
+    top: 165vw;
+    position: absolute;
+}
+#sec4 .sec4_img9{
+    z-index: 1;
+    width: 20vw;
+    left: 40%;
+    top: 197vw;
+    position: absolute;
+}
+
+/* mo Style  */
+
+#msec1,#msec2,#msec3,#msec4,#msec5,#msec6{position: relative;}
+.msec1_img1,.msec2_img1,.msec3_img1,.msec4_img1,.msec5_img1,.msec6_img1{}
+
+/* =================== 모바일 1번 섹션=================== */
+
+#msec1 .msec1_img2{
+    position: absolute;
+    width: 80vw;
+    left: 10%;
+    top: 13vw;
+    
+}
+#msec1 .msec1_img3{
+    position: absolute;
+    width: 70vw;
+    left: 15%;
+    top: 100vw;
+    z-index: 2;
+}
+
+/* =================== 모바일 2번 섹션=================== */
+#msec2 .msec2_img2{
+    position: absolute;
+    width: 80vw;
+    left: 10%;
+    top: 20vw;
+}
+
+#msec2 .msec2_img3{
+    position: absolute;
+    width: 80vw;
+    left: 10%;
+    top: 50vw;
+}
+#msec2 .msec2_img4{
+    position: absolute;
+    width: 70vw;
+    left: 15%;
+    top: 100vw;
+    z-index: 2;
+}
+
+/* =================== 모바일 3번 섹션=================== */
+#msec3 .msec3_img2{
+    position: absolute;
+    width: 70vw;
+    right: 0%;
+    top: 15vw;
+}
+
+#msec3 .msec3_img3{
+    position: absolute;
+    width: 45vw;
+    left:5%;
+    top: 120vw;
+}
+
+/* =================== 모바일 4번 섹션=================== */
+#msec4 .msec4_img2{
+    position: absolute;
+    width: 90vw;
+    left: 5%;
+    top: 10vw;
+}
+
+#msec4 .msec4_img3{
+    position: absolute;
+    width: 75vw;
+    left:10%;
+    top: 80vw;
+}
+#msec4 .msec4_img4{
+    position: absolute;
+    width: 75vw;
+    left:10%;
+    top: 125vw;
+}
+/* =================== 모바일 5번 섹션=================== */
+
+#msec5 .msec5_img2{
+    position: absolute;
+    width: 50vw;
+    left:10%;
+    top: 5vw;
+}
+
+#msec5 .msec5_img3{
+    position: absolute;
+    width: 50vw;
+    left:22%;
+    top: 40vw;
+}
+#msec5 .msec5_img4{
+    position: absolute;
+    width: 65vw;
+    left:10%;
+    top: 90vw;
+}
+#msec5 .msec5_img5{
+    position: absolute;
+    width: 65vw;
+    left:10%;
+    top: 120vw;
+}
+#msec5 .msec5_img6{
+    position: absolute;
+    width: 60vw;
+    left:10%;
+    top: 145vw;
+}
+/* =================== 모바일 6번 섹션=================== */
+
+#msec6 .msec6_img2{
+    position: absolute;
+    width: 80vw;
+    left:10%;
+    top: 1vw;
+}
+
+#msec6 .msec6_img3{
+    position: absolute;
+    width: 85vw;
+    left:7%;
+    top: 55vw;
+}
+
+#msec6 .msec6_img4{
+    position: absolute;
+    width: 60vw;
+    left:20%;
+    top: 130vw;
 }
