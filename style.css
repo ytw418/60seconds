@@ -228,11 +228,17 @@ img{width: 100%;display: block;}
 }
 /* =================== 모바일 5번 섹션=================== */
 
+#msec5 .msec5_img1{
+ height: 180vw;
+}
+
+
 #msec5 .msec5_img2{
     position: absolute;
     width: 50vw;
     left:10%;
     top: 5vw;
+
 }
 
 #msec5 .msec5_img3{
