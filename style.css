@@ -287,3 +287,100 @@ img{width: 100%;display: block;}
     left:20%;
     top: 130vw;
 }
+
+
+
+/* ============================================푸터====================================== */
+footer main.container-fluid{
+    background-color :#1c1c1c;
+    color: #fff;
+    overflow: hidden;
+    }
+    .a_1{
+        margin-top: 60px;
+        
+    }
+    .B{position: relative;height: 180px;font-size: 16px;overflow: hidden;}
+    .B P{ display: inline;}
+    .B ul img{margin: 15px;width: 40px;height: 40px;border-radius: 500%;}
+    
+    
+    .B_1{
+        position: relative;
+        
+        top: 2.5vw;
+        border-bottom: solid;
+        border-color:white;
+        border-width: 1px;
+    }
+    
+    .B_2{
+        position: relative;
+        top: 2.5vw;
+        border-bottom: solid;
+        border-color:white;
+        border-width: 1px;
+        
+    }
+    .B_3 {
+        position: relative;
+        
+        top: 2.5vw;
+        border-bottom: solid;
+        border-color:white;
+        border-width: 1px;
+    }
+    .B_3 li{color:white;}
+    .B_3 li :hover{color: #424f9b;}
+    .B_3 ul{padding: 0;margin-bottom: 0;}
+    .B_3 li{
+        display: inline-block;
+    }
+    
+    
+    .fo_title01{
+        font-size:2.5rem;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+    .fo_title02{
+        font-size:1.2rem; 
+        font-weight: 300;
+        padding-top: 10px;
+    
+    }
+    .sub_fo_title02{ 
+        font-size:1.2rem; 
+        font-weight: 300;
+        padding-bottom: 20px;}
+    .sub_font_fo_title02{
+        font-weight: 500;
+    }
+    .fo_title03{
+        font-size:0.8rem;
+        font-weight: 200;
+        letter-spacing: 0.5rem;
+        padding-bottom: 40px;
+        border-bottom: solid;
+        border-color:white;
+        border-width: 1px;
+    }
+    
+    /* =================================풋터 모바일===========================  */
+    
+    @media all and (max-width:768px) {
+        .B_1{text-align: center;padding: 20px;font-size: 11px;border: none;}
+        .B_2{text-align: center;height: 100px;font-size: 11px;border: none;}
+        .B_3{text-align: center;padding-top: 10px; border: none;}
+        .B{height:auto;}
+        .a_1{margin-top: 50px;}
+        .fo_title02{display: none;}
+        .fo_title03{border: none;padding-bottom: 0;}
+        .sub_fo_title02{display: none;}
+        .row {
+            --bs-gutter-x: 0;
+        }
+        .B ul img{margin: 15px;width: 32px;height: 32px;border-radius: 500%;}
+    }
+    /* ===============================풋터 끝============================= */
+    a{color: #fff;}
